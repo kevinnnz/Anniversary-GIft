@@ -1,0 +1,40 @@
+{
+    "gifts" : [
+        {
+            "id": 1,
+            "name": "Spa Gift Card",
+            "description": "Enjoy a relaxing day at the spa!",
+            "image": ""
+        },
+        {
+            "id": 2,
+            "name": "Demon Slayer Movie Tickets",
+            "description": "Enjoy Demon Slayer in our own private movie theater experience!",
+            "image": ""
+        },
+        {
+            "id": 3,
+            "name": "Steak Knives",
+            "description": "For cutting all that steak you like to eat.",
+            "image": ""
+        },
+        {
+            "id": 4,
+            "name": "Company Hoodie",
+            "description": "Complete with AI Artwork! Sure to shrink in the wash.",
+            "image": ""
+        },
+        {
+            "id": 5,
+            "name": "Phone Charger with FAST CHARGE Power Brick",
+            "description": "Keep your phone charged.",
+            "image": ""
+        },
+        {
+            "id": 6,
+            "name": "Autographed Roni Photograph (Set of 5)",
+            "description": "Everyone will be asking you Who the fuck is RONI!?!? with your very own collector set of autographed photos!",
+            "image": ""
+        }
+    ]
+}
