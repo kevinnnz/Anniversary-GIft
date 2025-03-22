@@ -15,7 +15,7 @@ function Index() {
       <div className="md:container md:mx-auto">
         <section className="mt-10">
           <div className="lg:columns-3 gap-4 md:columns-2 sm:columns-1">
-                <GiftsList />
+            <GiftsList />
           </div>
         </section>
       </div>

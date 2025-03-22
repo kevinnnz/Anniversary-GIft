@@ -2,7 +2,7 @@
 import React from "react";
 import GiftCard from "../GiftsCard/GiftsCard";
 
-import { useGifts } from '../../context';
+import { useGifts } from '../../hooks/useGifts';
 
 const GiftsList = () => {
   const { gifts, loading, error } = useGifts();

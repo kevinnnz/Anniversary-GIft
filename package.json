@@ -5,7 +5,7 @@
   "scripts": {
     "generate-routes": "npx @tanstack/router-cli generate-route-tree",
     "build": "vite build",
-    "dev": "vite",
+    "dev": "vite --host",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,jsx,tsx,ts,css}\"",
     "lint": "eslint \"**/*.{js,jsx}\"",

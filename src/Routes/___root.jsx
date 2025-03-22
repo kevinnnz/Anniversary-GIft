@@ -4,18 +4,16 @@ import { createRootRoute, Outlet } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 
 import { Nav } from "../components/Nav/Nav";
-import { CartProvider, GiftProvider } from "../context";
+import { CartProvider } from "../context";
 
 export const Route = createRootRoute({
   component: () => {
     return (
-      <GiftProvider>
-        <CartProvider>
-          <Nav />
-          <Outlet />
-          {process.env.NODE_ENV === "development" && <TanStackRouterDevtools />}
-        </CartProvider>
-      </GiftProvider>
+      <CartProvider>
+        <Nav />
+        <Outlet />
+        {process.env.NODE_ENV === "development" && <TanStackRouterDevtools />}
+      </CartProvider>
     );
   },
 });
