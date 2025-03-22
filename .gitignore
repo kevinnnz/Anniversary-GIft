@@ -4,3 +4,4 @@ dist/
 .env
 converage/
 .vscode/
+routeTree.gen.ts
