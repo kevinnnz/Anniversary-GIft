@@ -17,12 +17,16 @@ export const CartProvider = ({ children }) => {
         setCart((prevCart) => [...prevCart, gift]);
     }
 
+    const removeFromCart = (giftToRemove) => {
+        setCart(currCart => currCart.filter(gift => gift != giftToRemove))
+    }
+
     const clearCart = () => {
         setCart([]);
     }
 
     return (
-        <CartContext.Provider value={{cart, addToCart, clearCart}}>
+        <CartContext.Provider value={{cart, addToCart, clearCart, removeFromCart}}>
             {children}
         </CartContext.Provider>
     )

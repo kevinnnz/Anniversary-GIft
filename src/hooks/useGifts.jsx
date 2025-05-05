@@ -5,7 +5,7 @@ export const useGifts = () => {
     const [gifts, setGifts] = useState();
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
-
+    
     useEffect(() => {
         setLoading(true); 
         fetch("/data/data.json")
