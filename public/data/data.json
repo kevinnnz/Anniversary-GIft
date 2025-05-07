@@ -1,40 +1,119 @@
 {
-    "gifts" : [
-        {
-            "id": 1,
-            "name": "Spa Gift Card",
-            "description": "Enjoy a relaxing day at the spa!",
-            "image": ""
-        },
-        {
-            "id": 2,
-            "name": "Demon Slayer Movie Tickets",
-            "description": "Enjoy Demon Slayer in our own private movie theater experience!",
-            "image": ""
-        },
-        {
-            "id": 3,
-            "name": "Steak Knives",
-            "description": "For cutting all that steak you like to eat.",
-            "image": ""
-        },
-        {
-            "id": 4,
-            "name": "Company Hoodie",
-            "description": "Complete with AI Artwork! Sure to shrink in the wash.",
-            "image": ""
-        },
-        {
-            "id": 5,
-            "name": "Phone Charger with FAST CHARGE Power Brick",
-            "description": "Keep your phone charged.",
-            "image": ""
-        },
-        {
-            "id": 6,
-            "name": "Autographed Roni Photograph (Set of 5)",
-            "description": "Everyone will be asking you Who the fuck is RONI!?!? with your very own collector set of autographed photos!",
-            "image": ""
-        }
-    ]
+  "gifts": [
+    {
+      "id": 1,
+      "name": "Spa Day",
+      "description": "Enjoy a relaxing day at the spa!"
+    },
+    {
+      "id": 2,
+      "name": "Demon Slayer Movie Tickets",
+      "description": "Enjoy Demon Slayer in our own private movie theater experience!"
+    },
+    {
+      "id": 3,
+      "name": "Steak Knives",
+      "description": "For cutting all that steak you like to eat."
+    },
+    {
+      "id": 4,
+      "name": "Company Hoodie",
+      "description": "Complete with AI Artwork! Sure to shrink in the wash."
+    },
+    {
+      "id": 5,
+      "name": "Phone Charger with FAST CHARGE Power Brick",
+      "description": "Keep your phone charged."
+    },
+    {
+      "id": 6,
+      "name": "Autographed Roni Photograph (Set of 5)",
+      "description": "Everyone will be asking you Who the fuck is RONI!?!? with your very own collector set of autographed photos!"
+    },
+    {
+      "id": 7,
+      "name": "Flowers for a year",
+      "description": "Get flowers every month for 12 months!"
+    },
+    {
+      "id": 8,
+      "name": "Pimple Popper Exterme",
+      "description": "Pop my pimples and I won't complain!"
+    },
+    {
+      "id": 9,
+      "name": "Massage at the Spa",
+      "description": "Treat yourself to a massage"
+    },
+    {
+      "id": 10,
+      "name": "Mystery Dinner",
+      "description": "Could be McDonalds, could be a nice resturant! Who knows!"
+    },
+    {
+      "id": 11,
+      "name": "Mystery Date Night",
+      "description": "A fully planned date night."
+    },
+    {
+      "id": 12,
+      "name": "Magic The Gathering Box",
+      "description": "Booster box of Magic the Gathering cards!"
+    },
+    {
+      "id": 13,
+      "name": "10 Coupons for Dinner",
+      "description": "Use this copoun to make me make you dinner. No decisions for you!"
+    },
+    {
+      "id": 14,
+      "name": "Shaul",
+      "description": "Keep warm this winter with a Shaul!"
+    },
+    {
+      "id": 15,
+      "name": "Orange Wine",
+      "description": "A delious bottle of orange wine. Yum!"
+    },
+    {
+      "id": 16,
+      "name": "Pottery Movie Night",
+      "description": "Kite club pottery night!"
+    },
+    {
+      "id": 17,
+      "name": "Golf Shoe Bag",
+      "description": "Store your golf shoes in style"
+    },
+    {
+      "id": 18,
+      "name": "Digital Picture Frame",
+      "description": ""
+    },
+    {
+      "id": 19,
+      "name": "Amazon Gift Card",
+      "description": "Pick your own gift on Amazon.ca!"
+    },
+    {
+      "id": 20,
+      "name": "Bluetooth Speaker",
+      "description": "Annoy your uber drivers with this portable blue tooth speaker!"
+    },
+    {
+      "id": 21,
+      "name": "Hard Hat",
+      "description": "Protect your head!"
+    },
+    {
+      "id": 22,
+      "name": "Spicy Book",
+      "description": "Get a random Book Tok spicy book"
+    },
+    {
+      "id": 23,
+      "name": "Montgomery Forever!",
+      "description": "You dictate the music every time we drive up to the cottage. No if's and's or but's!"
+    }
+  ]
 }

@@ -16,7 +16,7 @@ export const CartDisplay = () => {
             );
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
         console.log(`Email: ${email}`);
@@ -32,7 +32,44 @@ export const CartDisplay = () => {
             return;
         }
 
-        alert("Emil is good!");
+        if (cart.length === 0) {
+            alert("Please select at least one gift before submitting.");
+            return;
+        }
+
+        // Prepare the data for the API request
+        const giftNames = cart.map(item => item.name);
+        const requestData = {
+            name,
+            email,
+            gifts: giftNames
+        };
+
+        try {
+            const response = await fetch('https://anniversary-gift-backend.onrender.com/api/gift-order', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(requestData),
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const result = await response.json();
+            console.log('Success:', result);
+            alert("Your gift selection has been submitted successfully!");
+            
+            // Clear the form and cart after successful submission
+            setName("");
+            setEmail("");
+            clearCart();
+        } catch (error) {
+            console.error('Error:', error);
+            alert("There was a problem submitting your gift selection. Please try again.");
+        }
     }
 
     return (
